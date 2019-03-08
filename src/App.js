@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import Details from './components/Details/Details'
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+// import Profile from './components/Navbar/Profile/Profile';
 
 class App extends Component {
   render() {
@@ -12,10 +13,10 @@ class App extends Component {
         <Navbar />
         <div className='orb'>
           <Details />
+          {/* <Profile /> */}
         </div>
       </div>
     );
   }
 }
-
 export default App;

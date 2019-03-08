@@ -7,6 +7,7 @@ import Profile from '../Navbar/Profile/Profile'
 import Settings from '../Navbar/Settings/Settings'
 
 class Details extends Component {
+
     render() {
         return (
             <div className='container'>
